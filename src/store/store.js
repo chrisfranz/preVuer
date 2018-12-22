@@ -15,16 +15,17 @@ export const store = new Vuex.Store({
       title: null,
       parentId: null,
       childrenIds: [],
-      position: {
+      rectangle: {
         x: 110,
         y: 120,
         height: 50,
-        width: 50
+        width: 50,
+        fill: 'blue',
+        stroke: 'black',
+        strokeWidth: 4,
+        draggable: true,
+        opacity: 0.3,
       },
-      stroke: 'black',
-      strokeWidth: 4,
-      draggable: true,
-      opacity: 0.5
     }
     
   },
